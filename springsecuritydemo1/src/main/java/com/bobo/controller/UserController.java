@@ -77,8 +77,6 @@ public class UserController {
     @RequestMapping("/update1")
     public String update1(){
         System.out.println("用户更新....");
-        Connection connection= DriverManager.getConnection("zzz","xxx","ccc");
-        new HashMap<>();
         return "/home.jsp";
     }
 }
