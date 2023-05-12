@@ -61,7 +61,7 @@ public class UserController {
 
 
 
-    @Secured("ROLE_ADMIN")
+//    @Secured("ROLE_ADMIN")
     @RequestMapping("/query1")
     public String query1(){
         System.out.println("用户查询....");
@@ -73,7 +73,7 @@ public class UserController {
         System.out.println("用户删除....");
         return "/home.jsp";
     }
-    @Secured("ROLE_USER")
+//    @Secured("ROLE_USER")
     @RequestMapping("/update1")
     public String update1(){
         System.out.println("用户更新....");
